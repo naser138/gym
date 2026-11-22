@@ -63,8 +63,13 @@
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true
-    }
+
+"web": {
+  "output": "single"
+},
+"experiments": {
+  "typedRoutes": true,
+  "baseUrl": "/my-gym"
+}
   }
 }
